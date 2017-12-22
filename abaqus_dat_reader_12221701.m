@@ -21,7 +21,7 @@ function [Results, Step, Err] = abaqus_dat_reader_12221701(File)
     % Rev: 08/11/17 - Added ability to read *NODE PRINT and *EL PRINT
     %                 inside *FREQUENCY steps (handy for visualizing mode shapes)
     %                 stored to Step.Mode structure
-    % Rev: 12/22/17 - General updated for git
+    % Rev: 12/22/17 - General update for git
 	%
 
     if nargin==0
