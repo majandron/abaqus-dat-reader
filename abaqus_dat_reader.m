@@ -1,4 +1,4 @@
-function [Results, Step, Err] = abaqus_dat_reader_12221701(File)
+function [Results, Step, Err] = abaqus_dat_reader(File)
     % Michael Jandron
     % Brown University
     % June 21, 2017
